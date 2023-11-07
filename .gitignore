@@ -1,0 +1,18 @@
+# Compiled python files
+*.pyc
+__pycache__/
+
+# Spyder project settings
+.spyproject/
+
+# OS generated files
+.DS_Store
+.Rhistory
+
+# Data directories (if they contain large files or sensitive information)
+/_raw/
+/data/
+
+# Backup files
+*~
+

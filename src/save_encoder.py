@@ -1,0 +1,1 @@
+# save_encoder.pyimport torchdef save_encoder(encoder, file_path):    torch.save(encoder.state_dict(), file_path)def load_encoder(file_path):    model = Encoder(input_dim=INPUT_DIM, latent_dim=LATENT_DIM)    model.load_state_dict(torch.load(file_path))    model.eval()  # Set the model to evaluation mode    return model
